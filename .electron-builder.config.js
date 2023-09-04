@@ -25,5 +25,11 @@ module.exports = async function () {
     linux: {
       target: 'deb',
     },
+    win: {
+      target: ['nsis'],
+    },
+    nsis: {
+      oneClick: false, // 一键安装
+    },
   };
 };
